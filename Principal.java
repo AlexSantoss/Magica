@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Principal {
 
 	public static void main(String args[]) throws InterruptedException{
-        Scanner scan = new Scanner( System.in );
+		Scanner scan = new Scanner( System.in );
 
-        System.out.println("Escolha o número de cartões:");
-        Integer tam= scan.nextInt();
+		System.out.println("Escolha o número de cartões:");
+		Integer tam= scan.nextInt();
 		System.out.println("Agora pense em um número de 0 até " + ((int) Math.pow(2, tam)-1) + ". (Digite \"ok\" quando escolher)");
 		scan.next();
 		
